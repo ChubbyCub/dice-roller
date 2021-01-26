@@ -37,5 +37,25 @@ class MainActivity : AppCompatActivity() {
 
          // so best practice is to keep the image in a field, which is a class variable here.
          diceImage.setImageResource(drawableResource)
+         /**
+          * what is gradle?
+            gradle is Android build tool. here are the things gradle does:
+            1. describle what devices the app can run on
+            2. compile code
+            3. dependency management
+            4. app signing to download app from Google Play
+            5. automated test
+
+          gradle commands compile your source code into an APK (Android Application Package)
+          Android Studio transfer the APK to your device or emulator. It installs the APK and runs
+          it.
+
+          There are two types of Gradle files:
+          1. for project.
+          2. for module: app.
+
+          Interesting! The XML file will be compiled into PNG file on phones that are operated
+          at the lower API than the minimal support API.
+          */
      }
  }
